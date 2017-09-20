@@ -1,0 +1,41 @@
+{
+  "name": "SignInApp",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~18.0.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.45.1",
+    "react-native-animatable": "^1.2.2",
+    "react-native-blur": "^3.1.2",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-chooser": "^1.5.3",
+    "react-native-floating-label-text-input": "^0.1.5",
+    "react-native-fs": "^2.3.3",
+    "react-native-html-to-pdf": "^0.4.0",
+    "react-native-keyboard-aware-scroll-view": "^0.3.0",
+    "react-native-keyboard-spacer": "^0.3.1",
+    "react-native-modal-picker": "0.0.16",
+    "react-native-pages": "^0.5.3",
+    "react-native-print": "^0.3.0",
+    "react-native-signature-capture": "^0.4.6",
+    "react-native-signature-pad": "0.0.8",
+    "react-native-svg": "^5.3.2",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "reactionic": "^1.1.2",
+    "rn-flabel-textfield": "^0.1.4"
+  }
+}
